@@ -27,6 +27,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureHandler:)];
+    [self.view addGestureRecognizer:tapGesture];
+}
+
+- (void)tapGestureHandler:(UITapGestureRecognizer *)gesture
+{
+    CGSize currentSize = self.preferredContentSize;
+    if (currentSize.height >= 200) {
+        [self setPreferredContentSize:CGSizeMake(320, 100)];
+    } else {
+        [self setPreferredContentSize:CGSizeMake(320, 200)];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -38,10 +50,6 @@
         weakSelf.photo = photo;
         weakSelf.photoImageView.image = weakSelf.photo;
     }];
-    
-    
-    NSUserDefaults *settings = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.dispatchsync.slideshow"];
-    _debugLabel.text = [NSString stringWithFormat:@"%@", [settings objectForKey:@"test"]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,8 +58,6 @@
 }
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
-    NSUserDefaults *settings = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.dispatchsync.slideshow"];
-    _debugLabel.text = [NSString stringWithFormat:@"%@", [settings objectForKey:@"test"]];
     _photoImageView.image = _photo;
     completionHandler(NCUpdateResultNewData);
 }

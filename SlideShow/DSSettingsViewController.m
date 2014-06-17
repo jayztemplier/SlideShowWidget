@@ -30,7 +30,7 @@ static NSString * const CellIdentifier = @"AlbumCell";
 - (void)refresh
 {
     __weak DSSettingsViewController *weakSelf = self;
-    [self getAlbumsWithCompletion:^(NSArray *albums) {
+    [DSAlbum getAlbumsWithCompletion:^(NSArray *albums) {
         _albums = albums;
         [weakSelf.tableView reloadData];
     }];
@@ -82,33 +82,6 @@ static NSString * const CellIdentifier = @"AlbumCell";
         }
         [self refresh];
     }
-}
-
-- (void)getAlbumsWithCompletion:(void(^)(NSArray * albums))completion
-{
-    NSArray *albumIDs = [DSAlbum albumsToDisplay];
-    NSDictionary *albumsToSync ;
-    if (!albumsToSync) {
-        albumsToSync = @{};
-    }
-    NSMutableArray *array = [[NSMutableArray alloc] init];
-    ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-    [library enumerateGroupsWithTypes:ALAssetsGroupAll usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
-        [group setAssetsFilter:[ALAssetsFilter allPhotos]];
-        if (group) {
-            NSString *name = [group valueForProperty:ALAssetsGroupPropertyName];
-            NSString *propertyID = [group valueForProperty:ALAssetsGroupPropertyPersistentID];
-            UIImage *image = [UIImage imageWithCGImage:[group posterImage]];
-            [array addObject:@{@"name": name,
-                               @"id": propertyID,
-                               @"image": image,
-                               @"selected" : [NSNumber numberWithBool:[albumIDs containsObject:propertyID]]}];
-        } else {
-            completion(array);
-        }
-    } failureBlock: ^(NSError *error) {
-        NSLog(@"No groups");
-    }];
 }
 
 @end

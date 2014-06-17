@@ -12,5 +12,6 @@
 + (NSArray *)albumsToDisplay;
 + (void)addAlbumToDisplay:(NSString *)albumID;
 + (void)removeAlbumToDisplay:(NSString *)albumID;
++ (void)getAlbumsWithCompletion:(void(^)(NSArray * albums))completion;
 + (void)getRandomPhoto:(void(^)(UIImage * photo))completion;
 @end

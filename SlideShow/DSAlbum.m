@@ -29,7 +29,6 @@ static NSInteger testInteger  = 0;
         [albumstoDisplay addObject:albumID];
         
         NSUserDefaults *settings = [[NSUserDefaults alloc] initWithSuiteName:kSharedSuiteName];
-        [settings setObject:[NSNumber numberWithInteger:testInteger] forKey:@"test"];
         [settings setObject:albumstoDisplay forKey:kAlbumsToDisplay];
         [settings synchronize];
     }
@@ -47,6 +46,32 @@ static NSInteger testInteger  = 0;
     }
 }
 
++ (void)getAlbumsWithCompletion:(void(^)(NSArray * albums))completion
+{
+    NSArray *albumIDs = [DSAlbum albumsToDisplay];
+    NSDictionary *albumsToSync ;
+    if (!albumsToSync) {
+        albumsToSync = @{};
+    }
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+    [library enumerateGroupsWithTypes:ALAssetsGroupAll usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
+        [group setAssetsFilter:[ALAssetsFilter allPhotos]];
+        if (group) {
+            NSString *name = [group valueForProperty:ALAssetsGroupPropertyName];
+            NSString *propertyID = [group valueForProperty:ALAssetsGroupPropertyPersistentID];
+            UIImage *image = [UIImage imageWithCGImage:[group posterImage]];
+            [array addObject:@{@"name": name,
+                               @"id": propertyID,
+                               @"image": image,
+                               @"selected" : [NSNumber numberWithBool:[albumIDs containsObject:propertyID]]}];
+        } else {
+            completion(array);
+        }
+    } failureBlock: ^(NSError *error) {
+        NSLog(@"No groups");
+    }];
+}
 
 + (void)getRandomPhoto:(void(^)(UIImage * photo))completion
 {

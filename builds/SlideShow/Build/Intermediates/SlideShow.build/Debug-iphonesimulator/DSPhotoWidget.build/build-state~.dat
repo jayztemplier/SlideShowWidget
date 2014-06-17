@@ -1,0 +1,30 @@
+TDSPhotoWidget
+v7
+r1
+cCheck dependencies
+
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2b6d81b2c24fb941^042086b2c24fb941^---0#1#1#--18"Check dependencies36"3A5815E0-5F83-4E7C-8A72-40E83B873117-
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileStoryboard /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard
+r0
+
+CGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget
+r0
+
+CLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget normal i386
+r0
+
+CProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist
+r0
+
+CTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+r0
+

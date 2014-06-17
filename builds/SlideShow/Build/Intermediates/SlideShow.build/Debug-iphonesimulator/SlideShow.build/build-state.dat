@@ -2,8 +2,8 @@ TSlideShow
 v7
 r1
 cCheck dependencies
-cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/AppDelegate.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/AppDelegate.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/DSSettingsViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/main.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow normal i386
@@ -11,6 +11,8 @@ cCompileXIB /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsVie
 cCompileAssetCatalog /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets
 cProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist
 cGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow
+cPBXCp builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+cValidateEmbeddedBinary /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
 cTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app
 
 CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m
@@ -30,7 +32,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9b91ed01c24fb941^6212ee01c24fb941^---0#1#1#--18"Check dependencies36"D6ECFD99-B0EB-4E92-A7A9-CDFE4E802BCE-
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesebe5ffe0c54fb941^6c0a00e1c54fb941^---0#1#1#--18"Check dependencies36"80AA519E-357C-4D0B-88D6-72F76235B788-
 
 CCompileAssetCatalog /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets
 s424489115.221288
@@ -228,6 +230,16 @@ d/usr/lib/system/libsystem_pthread.dylib
 lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow92"Ld builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow normal i3866e6ef801c24fb941^e467ff01c24fb941^---0#0#1#--1561"Ld builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow normal i386    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export IPHONEOS_DEPLOYMENT_TARGET=8.0    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -L/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/SlideShow.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=8.0 -Xlinker -dependency_info -Xlinker /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/SlideShow.build/Objects-normal/i386/SlideShow_dependency_info.dat -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/SlideShow36"4E75F98B-B1B6-472A-AB0C-3404203560C4-
 b6A609077-D1BA-40FA-BBBA-5E89AA47C842
 
+CPBXCp builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+s424658401.001794
+e424658401.003650
+r1
+xPBXCp
+xbuilds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+xbuilds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Copy /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex229"PBXCp builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex5e8100e1c54fb941^9aef00e1c54fb941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/0000000000000000^868"PBXCp builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns36"75C4EF2B-B8F8-4631-9BD1-DD9915332232-
+b54761949-3E26-444D-ADE9-FC3C478BFE3F
+
 CProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist
 s424489115.792082
 e424489115.793634
@@ -246,4 +258,13 @@ xTouch
 x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app
 lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Touch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app73"Touch builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.appa8900302c24fb941^276b0402c24fb941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/0000000000000000^468"Touch builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app36"E6AFD687-1181-4662-BBA1-95822FD6372B-
 b6A609077-D1BA-40FA-BBBA-5E89AA47C842
+
+CValidateEmbeddedBinary /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+s424658401.003917
+e424658401.005220
+r1
+xValidateEmbeddedBinary
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Validate embedded binary145"ValidateEmbeddedBinary builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appexbb0a01e1c54fb941^bc5701e1c54fb941^---0#0#1#-19%DVTDocumentLocation2@175"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex/0000000000000000^670"ValidateEmbeddedBinary builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-embeddedBinaryValidationUtility /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex -bundle-identifier-prefix com.dispatchsync.SlideShow36"17DF9520-A473-42B5-8475-4AE081A94653-
+b54761949-3E26-444D-ADE9-FC3C478BFE3F
 

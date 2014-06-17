@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DSPhotoWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SlideShow.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3F016CCC194FC2B00040E8F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3FFDF3E6194D3029000BF34C</key>
 		<dict>
 			<key>primary</key>

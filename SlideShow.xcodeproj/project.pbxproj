@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F016CD0194FC2B00040E8F9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F016CCF194FC2B00040E8F9 /* NotificationCenter.framework */; };
+		3F016CD6194FC2B00040E8F9 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F016CD5194FC2B00040E8F9 /* TodayViewController.m */; };
+		3F016CD8194FC2B00040E8F9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */; };
+		3F016CDB194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F016CCD194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex */; };
+		3F016CE3194FC2DB0040E8F9 /* DSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF414194D3650000BF34C /* DSAlbum.m */; };
 		3FFDF3ED194D3029000BF34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF3EC194D3029000BF34C /* main.m */; };
 		3FFDF3F0194D3029000BF34C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF3EF194D3029000BF34C /* AppDelegate.m */; };
 		3FFDF3F2194D3029000BF34C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFDF3F1194D3029000BF34C /* Images.xcassets */; };
@@ -17,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F016CD9194FC2B00040E8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F016CCC194FC2B00040E8F9;
+			remoteInfo = DSPhotoWidget;
+		};
+		3F016CDC194FC2B00040E8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F016CCC194FC2B00040E8F9;
+			remoteInfo = DSPhotoWidget;
+		};
 		3FFDF3F8194D3029000BF34C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
@@ -26,7 +45,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F016CE1194FC2B00040E8F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F016CDB194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F016CCD194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.dispatchsync.SlideShow.DSPhotoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F016CCF194FC2B00040E8F9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3F016CD3194FC2B00040E8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F016CD4194FC2B00040E8F9 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		3F016CD5194FC2B00040E8F9 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		3FFDF3E7194D3029000BF34C /* SlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFDF3EB194D3029000BF34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFDF3EC194D3029000BF34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +83,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F016CCA194FC2B00040E8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F016CD0194FC2B00040E8F9 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFDF3E4194D3029000BF34C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,11 +108,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F016CCE194FC2B00040E8F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F016CCF194FC2B00040E8F9 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F016CD1194FC2B00040E8F9 /* DSPhotoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3F016CD4194FC2B00040E8F9 /* TodayViewController.h */,
+				3F016CD5194FC2B00040E8F9 /* TodayViewController.m */,
+				3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */,
+				3F016CD2194FC2B00040E8F9 /* Supporting Files */,
+			);
+			path = DSPhotoWidget;
+			sourceTree = "<group>";
+		};
+		3F016CD2194FC2B00040E8F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F016CD3194FC2B00040E8F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3FFDF3DE194D3029000BF34C = {
 			isa = PBXGroup;
 			children = (
 				3FFDF3E9194D3029000BF34C /* SlideShow */,
 				3FFDF3FA194D3029000BF34C /* SlideShowTests */,
+				3F016CD1194FC2B00040E8F9 /* DSPhotoWidget */,
+				3F016CCE194FC2B00040E8F9 /* Frameworks */,
 				3FFDF3E8194D3029000BF34C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +151,7 @@
 			children = (
 				3FFDF3E7194D3029000BF34C /* SlideShow.app */,
 				3FFDF3F7194D3029000BF34C /* SlideShowTests.xctest */,
+				3F016CCD194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +201,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F016CCC194FC2B00040E8F9 /* DSPhotoWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F016CE0194FC2B00040E8F9 /* Build configuration list for PBXNativeTarget "DSPhotoWidget" */;
+			buildPhases = (
+				3F016CC9194FC2B00040E8F9 /* Sources */,
+				3F016CCA194FC2B00040E8F9 /* Frameworks */,
+				3F016CCB194FC2B00040E8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSPhotoWidget;
+			productName = DSPhotoWidget;
+			productReference = 3F016CCD194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		3FFDF3E6194D3029000BF34C /* SlideShow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FFDF401194D3029000BF34C /* Build configuration list for PBXNativeTarget "SlideShow" */;
@@ -131,10 +225,13 @@
 				3FFDF3E3194D3029000BF34C /* Sources */,
 				3FFDF3E4194D3029000BF34C /* Frameworks */,
 				3FFDF3E5194D3029000BF34C /* Resources */,
+				3F016CE1194FC2B00040E8F9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F016CDA194FC2B00040E8F9 /* PBXTargetDependency */,
+				3F016CDD194FC2B00040E8F9 /* PBXTargetDependency */,
 			);
 			name = SlideShow;
 			productName = SlideShow;
@@ -168,6 +265,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = DispatchSync;
 				TargetAttributes = {
+					3F016CCC194FC2B00040E8F9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
 					3FFDF3E6194D3029000BF34C = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -191,11 +291,20 @@
 			targets = (
 				3FFDF3E6194D3029000BF34C /* SlideShow */,
 				3FFDF3F6194D3029000BF34C /* SlideShowTests */,
+				3F016CCC194FC2B00040E8F9 /* DSPhotoWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F016CCB194FC2B00040E8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F016CD8194FC2B00040E8F9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFDF3E5194D3029000BF34C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +324,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F016CC9194FC2B00040E8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F016CE3194FC2DB0040E8F9 /* DSAlbum.m in Sources */,
+				3F016CD6194FC2B00040E8F9 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FFDF3E3194D3029000BF34C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +355,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F016CDA194FC2B00040E8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F016CCC194FC2B00040E8F9 /* DSPhotoWidget */;
+			targetProxy = 3F016CD9194FC2B00040E8F9 /* PBXContainerItemProxy */;
+		};
+		3F016CDD194FC2B00040E8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F016CCC194FC2B00040E8F9 /* DSPhotoWidget */;
+			targetProxy = 3F016CDC194FC2B00040E8F9 /* PBXContainerItemProxy */;
+		};
 		3FFDF3F9194D3029000BF34C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
@@ -245,6 +373,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3F016CDE194FC2B00040E8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DSPhotoWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.dispatchsync.SlideShow.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F016CDF194FC2B00040E8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DSPhotoWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.dispatchsync.SlideShow.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		3FFDF3FF194D3029000BF34C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,6 +536,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F016CE0194FC2B00040E8F9 /* Build configuration list for PBXNativeTarget "DSPhotoWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F016CDE194FC2B00040E8F9 /* Debug */,
+				3F016CDF194FC2B00040E8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3FFDF3E2194D3029000BF34C /* Build configuration list for PBXProject "SlideShow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -398,6 +560,7 @@
 				3FFDF403194D3029000BF34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFDF404194D3029000BF34C /* Build configuration list for PBXNativeTarget "SlideShowTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +569,7 @@
 				3FFDF406194D3029000BF34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

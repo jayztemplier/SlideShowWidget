@@ -12,10 +12,10 @@
 
 @interface TodayViewController () <NCWidgetProviding>
 @property (weak, nonatomic) IBOutlet UILabel *debugLabel;
+@property (strong, nonatomic) UIImage *photo;
 @end
 
 @implementation TodayViewController
-static int debugInteger = 0;
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,7 +32,16 @@ static int debugInteger = 0;
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    _debugLabel.text = [NSString stringWithFormat:@"%d", debugInteger];
+    [self setPreferredContentSize:CGSizeMake(320, 100)];
+    __weak __typeof__(self) weakSelf = self;
+    [DSAlbum getRandomPhoto:^(UIImage *photo) {
+        weakSelf.photo = photo;
+        weakSelf.photoImageView.image = weakSelf.photo;
+    }];
+    
+    
+    NSUserDefaults *settings = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.dispatchsync.slideshow"];
+    _debugLabel.text = [NSString stringWithFormat:@"%@", [settings objectForKey:@"test"]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,13 +50,9 @@ static int debugInteger = 0;
 }
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
-    // Perform any setup necessary in order to update the view.
-    
-    // If an error is encoutered, use NCUpdateResultFailed
-    // If there's no update required, use NCUpdateResultNoData
-    // If there's an update, use NCUpdateResultNewData
-    debugInteger++;
-    _debugLabel.text = [NSString stringWithFormat:@"%d", debugInteger];
+    NSUserDefaults *settings = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.dispatchsync.slideshow"];
+    _debugLabel.text = [NSString stringWithFormat:@"%@", [settings objectForKey:@"test"]];
+    _photoImageView.image = _photo;
     completionHandler(NCUpdateResultNewData);
 }
 

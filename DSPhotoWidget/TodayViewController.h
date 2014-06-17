@@ -10,4 +10,5 @@
 
 @interface TodayViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
 @end

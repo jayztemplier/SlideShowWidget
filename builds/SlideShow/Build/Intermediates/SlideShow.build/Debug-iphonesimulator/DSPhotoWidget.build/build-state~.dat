@@ -2,29 +2,169 @@ TDSPhotoWidget
 v7
 r1
 cCheck dependencies
+cProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget normal i386
+cGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget
+cCompileStoryboard /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard
+cCpResource DSPhotoWidget/iwok.jpg builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/iwok.jpg
+cTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex
 
 CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m
 r0
 
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+r0
+
 CCheck dependencies
 r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2b6d81b2c24fb941^042086b2c24fb941^---0#1#1#--18"Check dependencies36"3A5815E0-5F83-4E7C-8A72-40E83B873117-
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2b144da0d84fb941^f3ad53a0d84fb941^---0#1#1#--18"Check dependencies36"48A484B3-A780-47AB-863E-777EABF3C437-
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424663200.329103
+e424663200.383088
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m221"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o SlideShow/DSAlbum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler865554a0d84fb941^6a1462a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m0000000000000000^4244"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o SlideShow/DSAlbum.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fapplication-extension -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/DerivedSources/i386 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o36"7B6E7C08-043B-4536-8CA6-915B910796AB-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
+s424663200.329321
+e424663200.402196
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.h
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m249"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o DSPhotoWidget/TodayViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler446c54a0d84fb941^bef866a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m0000000000000000^4324"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o DSPhotoWidget/TodayViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fapplication-extension -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/com.dispatchsync.SlideShow.DSPhotoWidget-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/DerivedSources/i386 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/TodayViewController.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o36"C8DCD225-FA72-40AB-B0F9-D9163051D906-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CCompileStoryboard /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard
-r0
+s424663200.450528
+e424663200.574480
+r1
+xCompileStoryboard
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile Storyboard file /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard56"CompileStoryboard DSPhotoWidget/MainInterface.storyboard1f6673a0d84fb941^d49993a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard0000000000000000^962"CompileStoryboard DSPhotoWidget/MainInterface.storyboard    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin/..    /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --target-device iphone --errors --warnings --notices --module com_dispatchsync_SlideShow_DSPhotoWidget --minimum-deployment-target 8.0 --output-format human-readable-text --compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/MainInterface.storyboardc /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/MainInterface.storyboard36"320293CF-E151-409D-9BC7-5750CDFA087B-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
+
+CCpResource DSPhotoWidget/iwok.jpg builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/iwok.jpg
+s424663200.450631
+e424663200.451501
+r1
+xCpResource
+xDSPhotoWidget/iwok.jpg
+xbuilds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/iwok.jpg
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/iwok.jpg143"CpResource DSPhotoWidget/iwok.jpg builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/iwok.jpge06873a0d84fb941^9e9673a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/iwok.jpg0000000000000000^729"CpResource DSPhotoWidget/iwok.jpg builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/iwok.jpg    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/iwok.jpg /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex36"BFE04F30-76C2-4D41-A161-CD008575B677-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget
-r0
+s424663200.437993
+e424663200.450118
+r1
+xGenerateDSYMFile
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Generate /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM264"GenerateDSYMFile builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget6a3170a0d84fb941^2e3c73a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@157"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM0034f87cddffdf42^971"GenerateDSYMFile builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex.dSYM36"20EF8D58-90E9-4C9F-B725-7D4C76FC629B-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget normal i386
-r0
+s424663200.403086
+e424663200.436019
+r1
+xLd
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget
+xnormal
+xi386
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/com.dispatchsync.SlideShow.DSPhotoWidget.LinkFileList
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/DSAlbum.o
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/TodayViewController.o
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/libpkstart.a
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/NotificationCenter.framework/NotificationCenter
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/libextension.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/liblaunch_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_coreservices.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_coretls.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_kernel.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_platform.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_pthread.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_sandbox.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libsystem_sim_trace.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/usr/lib/system/libxpc.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection191"Link /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget156"Ld builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget normal i386414767a0d84fb941^dc9f6fa0d84fb941^---0#0#1#--2067"Ld builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget normal i386    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export IPHONEOS_DEPLOYMENT_TARGET=8.0    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -L/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/com.dispatchsync.SlideShow.DSPhotoWidget.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/../../Frameworks -Xlinker -objc_abi_version -Xlinker 2 -lpkstart /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit -fobjc-arc -fobjc-link-runtime -fapplication-extension -Xlinker -no_implicit_dylibs -mios-simulator-version-min=8.0 -framework NotificationCenter -Xlinker -dependency_info -Xlinker /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphonesimulator/DSPhotoWidget.build/Objects-normal/i386/com.dispatchsync.SlideShow.DSPhotoWidget_dependency_info.dat -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/com.dispatchsync.SlideShow.DSPhotoWidget36"CC827B67-A44F-4DB8-B020-55357B16A8C6-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist
-r0
+s424663200.327521
+e424663200.328643
+r1
+xProcessInfoPlistFile
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Process /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist157"ProcessInfoPlistFile builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist DSPhotoWidget/Info.plistffe853a0d84fb941^998354a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist0000000000000000^738"ProcessInfoPlistFile builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist DSPhotoWidget/Info.plist    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jeremy/Desktop/DispatchSync/SlideShow/DSPhotoWidget/Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/Info.plist36"6D43FB50-CDFF-4F77-A09F-3F4BD29FD342-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 
 CTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex
-r0
+s424663200.575012
+e424663200.579267
+r1
+xTouch
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Touch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex106"Touch builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appexff4293a0d84fb941^8dd196a0d84fb941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex/0000000000000000^534"Touch builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphonesimulator/com.dispatchsync.SlideShow.DSPhotoWidget.appex36"0D325C99-3BAA-411E-9CEE-AD91D59C614E-
+bD8C2BB4D-9659-43DF-8FEC-89A4F2F82434
 

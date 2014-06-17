@@ -6,10 +6,11 @@
 //  Copyright (c) 2014 DispatchSync. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface DSAlbum : NSObject
 + (NSArray *)albumsToDisplay;
 + (void)addAlbumToDisplay:(NSString *)albumID;
 + (void)removeAlbumToDisplay:(NSString *)albumID;
++ (void)getRandomPhoto:(void(^)(UIImage * photo))completion;
 @end

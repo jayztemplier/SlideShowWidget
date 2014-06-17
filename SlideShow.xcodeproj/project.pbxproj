@@ -12,6 +12,7 @@
 		3F016CD8194FC2B00040E8F9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */; };
 		3F016CDB194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F016CCD194FC2B00040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.appex */; };
 		3F016CE3194FC2DB0040E8F9 /* DSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF414194D3650000BF34C /* DSAlbum.m */; };
+		3F016CE5194FC7250040E8F9 /* iwok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F016CE4194FC7250040E8F9 /* iwok.jpg */; };
 		3FFDF3ED194D3029000BF34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF3EC194D3029000BF34C /* main.m */; };
 		3FFDF3F0194D3029000BF34C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDF3EF194D3029000BF34C /* AppDelegate.m */; };
 		3FFDF3F2194D3029000BF34C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFDF3F1194D3029000BF34C /* Images.xcassets */; };
@@ -35,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3F016CCC194FC2B00040E8F9;
 			remoteInfo = DSPhotoWidget;
+		};
+		3F016CE6194FDE050040E8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFDF3E6194D3029000BF34C;
+			remoteInfo = SlideShow;
 		};
 		3FFDF3F8194D3029000BF34C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,6 +74,7 @@
 		3F016CD4194FC2B00040E8F9 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		3F016CD5194FC2B00040E8F9 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		3F016CE4194FC7250040E8F9 /* iwok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iwok.jpg; sourceTree = "<group>"; };
 		3FFDF3E7194D3029000BF34C /* SlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFDF3EB194D3029000BF34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFDF3EC194D3029000BF34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +139,7 @@
 		3F016CD2194FC2B00040E8F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F016CE4194FC7250040E8F9 /* iwok.jpg */,
 				3F016CD3194FC2B00040E8F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -250,6 +260,7 @@
 			);
 			dependencies = (
 				3FFDF3F9194D3029000BF34C /* PBXTargetDependency */,
+				3F016CE7194FDE050040E8F9 /* PBXTargetDependency */,
 			);
 			name = SlideShowTests;
 			productName = SlideShowTests;
@@ -302,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F016CD8194FC2B00040E8F9 /* MainInterface.storyboard in Resources */,
+				3F016CE5194FC7250040E8F9 /* iwok.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +376,11 @@
 			isa = PBXTargetDependency;
 			target = 3F016CCC194FC2B00040E8F9 /* DSPhotoWidget */;
 			targetProxy = 3F016CDC194FC2B00040E8F9 /* PBXContainerItemProxy */;
+		};
+		3F016CE7194FDE050040E8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
+			targetProxy = 3F016CE6194FDE050040E8F9 /* PBXContainerItemProxy */;
 		};
 		3FFDF3F9194D3029000BF34C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

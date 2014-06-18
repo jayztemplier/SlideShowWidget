@@ -17,12 +17,18 @@
 
 @implementation TodayViewController
 
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    __weak __typeof__(self) weakSelf = self;
+    [DSAlbum getRandomPhoto:^(UIImage *photo) {
+        weakSelf.photo = photo;
+        weakSelf.photoImageView.image = weakSelf.photo;
+        CGSize size = weakSelf.preferredContentSize;
+        size.height = 100;
+        [weakSelf setPreferredContentSize:size];
+    }];
 }
 
 - (void)viewDidLoad {
@@ -33,33 +39,18 @@
 
 - (void)tapGestureHandler:(UITapGestureRecognizer *)gesture
 {
-    CGSize currentSize = self.preferredContentSize;
-    if (currentSize.height >= 200) {
-        [self setPreferredContentSize:CGSizeMake(320, 100)];
-    } else {
-        [self setPreferredContentSize:CGSizeMake(320, 200)];
-    }
+    CGSize preferredContentSize = self.preferredContentSize;
+    preferredContentSize.height = preferredContentSize.height >= 200 ? 100 : 300;
+    [self setPreferredContentSize:preferredContentSize];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [self setPreferredContentSize:CGSizeMake(320, 100)];
-    __weak __typeof__(self) weakSelf = self;
-    [DSAlbum getRandomPhoto:^(UIImage *photo) {
-        weakSelf.photo = photo;
-        weakSelf.photoImageView.image = weakSelf.photo;
-    }];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
-    _photoImageView.image = _photo;
     completionHandler(NCUpdateResultNewData);
+}
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
 }
 
 @end

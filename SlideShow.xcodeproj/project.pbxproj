@@ -44,6 +44,20 @@
 			remoteGlobalIDString = 3FFDF3E6194D3029000BF34C;
 			remoteInfo = SlideShow;
 		};
+		3F016CE8194FDE050040E8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFDF3E6194D3029000BF34C;
+			remoteInfo = SlideShow;
+		};
+		3F016CEB194FE0750040E8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFDF3E6194D3029000BF34C;
+			remoteInfo = SlideShow;
+		};
 		3FFDF3F8194D3029000BF34C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FFDF3DF194D3029000BF34C /* Project object */;
@@ -75,6 +89,8 @@
 		3F016CD5194FC2B00040E8F9 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		3F016CE4194FC7250040E8F9 /* iwok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iwok.jpg; sourceTree = "<group>"; };
+		3F016CEA194FE05D0040E8F9 /* SlideShow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SlideShow.entitlements; sourceTree = "<group>"; };
+		3F016CED194FE0970040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = com.dispatchsync.SlideShow.DSPhotoWidget.entitlements; sourceTree = "<group>"; };
 		3FFDF3E7194D3029000BF34C /* SlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFDF3EB194D3029000BF34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFDF3EC194D3029000BF34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +144,7 @@
 		3F016CD1194FC2B00040E8F9 /* DSPhotoWidget */ = {
 			isa = PBXGroup;
 			children = (
+				3F016CED194FE0970040E8F9 /* com.dispatchsync.SlideShow.DSPhotoWidget.entitlements */,
 				3F016CD4194FC2B00040E8F9 /* TodayViewController.h */,
 				3F016CD5194FC2B00040E8F9 /* TodayViewController.m */,
 				3F016CD7194FC2B00040E8F9 /* MainInterface.storyboard */,
@@ -169,6 +186,7 @@
 		3FFDF3E9194D3029000BF34C /* SlideShow */ = {
 			isa = PBXGroup;
 			children = (
+				3F016CEA194FE05D0040E8F9 /* SlideShow.entitlements */,
 				3FFDF3EE194D3029000BF34C /* AppDelegate.h */,
 				3FFDF3EF194D3029000BF34C /* AppDelegate.m */,
 				3FFDF3F1194D3029000BF34C /* Images.xcassets */,
@@ -261,6 +279,8 @@
 			dependencies = (
 				3FFDF3F9194D3029000BF34C /* PBXTargetDependency */,
 				3F016CE7194FDE050040E8F9 /* PBXTargetDependency */,
+				3F016CE9194FDE050040E8F9 /* PBXTargetDependency */,
+				3F016CEC194FE0750040E8F9 /* PBXTargetDependency */,
 			);
 			name = SlideShowTests;
 			productName = SlideShowTests;
@@ -278,9 +298,21 @@
 				TargetAttributes = {
 					3F016CCC194FC2B00040E8F9 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = RQZ9D969HD;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3FFDF3E6194D3029000BF34C = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = RQZ9D969HD;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3FFDF3F6194D3029000BF34C = {
 						CreatedOnToolsVersion = 6.0;
@@ -382,6 +414,16 @@
 			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
 			targetProxy = 3F016CE6194FDE050040E8F9 /* PBXContainerItemProxy */;
 		};
+		3F016CE9194FDE050040E8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
+			targetProxy = 3F016CE8194FDE050040E8F9 /* PBXContainerItemProxy */;
+		};
+		3F016CEC194FE0750040E8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
+			targetProxy = 3F016CEB194FE0750040E8F9 /* PBXContainerItemProxy */;
+		};
 		3FFDF3F9194D3029000BF34C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3FFDF3E6194D3029000BF34C /* SlideShow */;
@@ -393,6 +435,9 @@
 		3F016CDE194FC2B00040E8F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DSPhotoWidget/com.dispatchsync.SlideShow.DSPhotoWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -401,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "com.dispatchsync.SlideShow.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -408,10 +454,14 @@
 		3F016CDF194FC2B00040E8F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DSPhotoWidget/com.dispatchsync.SlideShow.DSPhotoWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DSPhotoWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "com.dispatchsync.SlideShow.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -497,9 +547,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SlideShow/SlideShow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SlideShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -508,9 +562,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SlideShow/SlideShow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SlideShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

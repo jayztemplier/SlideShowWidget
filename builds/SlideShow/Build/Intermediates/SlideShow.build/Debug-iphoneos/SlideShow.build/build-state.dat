@@ -1,0 +1,299 @@
+TSlideShow
+v7
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow normal armv7
+cCompileXIB /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib
+cCompileAssetCatalog /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets
+cProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist
+cGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow
+cPBXCp builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+cValidateEmbeddedBinary /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+cProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision
+cTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+cProcessProductPackaging /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/SlideShow.entitlements /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent
+cCodeSign /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m
+r0
+
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+r0
+
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m
+r0
+
+CBuild AST from /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf817c9376251b941^7ea7c9376251b941^---0#1#1#--18"Check dependencies36"43612007-C82F-437B-A373-2EA70EB96764-
+
+CCodeSign /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+s424763748.133934
+e424763748.311524
+r1
+xCodeSign
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Sign /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app69"CodeSign builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app896222646151b941^05c14f646151b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/0000000000000000^1176"CodeSign builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export CODESIGN_ALLOCATE=/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Signing Identity:     "iPhone Developer: Jeremy Templier (F6XHC7VX9X)"Provisioning Profile: "iOS Team Provisioning Profile: com.dispatchsync.SlideShow"                      (2BF3D462-766F-4C8C-83BA-C10E51B8BE18)    /usr/bin/codesign --force --sign 3E0CB940EC88153B5024B056851CE980CE42D047 --resource-rules=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist --entitlements /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app36"35AA6C09-88AA-4435-84FC-4034B3406A5B-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CCompileAssetCatalog /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets
+s424761558.796290
+e424761558.841070
+r1
+xCompileAssetCatalog
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/LaunchImage-700-568h@2x.png
+o/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/assetcatalog_generated_info.plist
+o
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile asset catalog /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets106"CompileAssetCatalog builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app SlideShow/Images.xcassetse6e6cbd65851b941^d350d7d65851b941^-341"/* com.apple.actool.compilation-results *//Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/LaunchImage-700-568h@2x.png/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@78"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets/0000000000000000^1186"CompileAssetCatalog builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app SlideShow/Images.xcassets    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 8.0 --target-device iphone --compress-pngs --compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Images.xcassets36"E5066CFF-99B3-4630-8B6C-C96BB3F9DA68-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/arm64/AppDelegate.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/arm64/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/arm64/DSSettingsViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/arm64/main.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424761557.549040
+e424761558.646536
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.h
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m220"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o SlideShow/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler16a18cd55851b941^0726a7d65851b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m0000000000000000^3902"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o SlideShow/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources/armv7 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o36"E22A248B-A60C-4601-8200-D1292DFB2084-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424763748.005281
+e424763748.064394
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m212"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o SlideShow/DSAlbum.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc17101646151b941^b77c10646151b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m0000000000000000^3878"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o SlideShow/DSAlbum.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources/armv7 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o36"476D92EE-284F-450B-9977-7CA3AE2575E1-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424761557.549238
+e424761558.762534
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.h
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSAlbum.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m246"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o SlideShow/DSSettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc9ae8cd55851b941^3b35c3d65851b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m0000000000000000^3980"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o SlideShow/DSSettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources/armv7 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o36"A20C344F-3A4D-4B6E-9B0D-58CA240A6026-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CCompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424762055.726288
+e424762055.764572
+r1
+xCompileC
+xbuilds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/AppDelegate.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m206"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o SlideShow/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2904bac75a51b941^8cbdc3c75a51b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m0000000000000000^3860"CompileC builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o SlideShow/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=8.0 -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-generated-files.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-own-target-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-all-target-headers.hmap -iquote /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow-project-headers.hmap -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources/armv7 -I/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/DerivedSources -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.dia -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/main.m -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o36"0D6748BE-7FA4-4DA7-AEF0-0D771BF6EBBE-
+b649C1F1B-7E1A-45B0-8704-5CD1F6517268
+
+CCompileXIB /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib
+s424761558.796160
+e424761559.506928
+r1
+xCompileXIB
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile XIB file /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib49"CompileXIB SlideShow/DSSettingsViewController.xibfce1cbd65851b941^6dc681d75851b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib0000000000000000^839"CompileXIB SlideShow/DSSettingsViewController.xib    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin/..    /Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin/ibtool --target-device iphone --errors --warnings --notices --module SlideShow --minimum-deployment-target 8.0 --output-format human-readable-text --compile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/DSSettingsViewController.nib /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/DSSettingsViewController.xib36"AF501570-ADB5-4576-BE71-5ECDCF89B94E-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CCpResource /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist
+s424761557.547719
+e424761557.548397
+r1
+xCpResource
+x/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist
+xbuilds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Copy /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist220"CpResource /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist39448cd55851b941^45648cd55851b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist0000000000000000^822"CpResource /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app36"1F2B90FC-ECEA-4CB1-A688-C60778132BE3-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CCreateUniversalBinary /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow normal armv7\ arm64
+r0
+
+CGenerateDSYMFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow
+s424763748.101068
+e424763748.116542
+r1
+xGenerateDSYMFile
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generate /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM153"GenerateDSYMFile builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow95ef19646151b941^02d71d646151b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM/0000000000000000^745"GenerateDSYMFile builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app.dSYM36"15F13E01-8347-4551-A946-9A1CA6271D6B-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/arm64/SlideShow normal arm64
+r0
+
+CLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/SlideShow normal armv7
+r0
+
+CLd /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow normal armv7
+s424763748.065114
+e424763748.099119
+r1
+xLd
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow
+xnormal
+xarmv7
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/SlideShow.LinkFileList
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSAlbum.o
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/AppDelegate.o
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/DSSettingsViewController.o
+d/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/main.o
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libextension.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coreservices.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coretls.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_networkextension.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_trace.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow86"Ld builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow normal armv766c110646151b941^e96019646151b941^---0#0#1#--1446"Ld builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow normal armv7    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export IPHONEOS_DEPLOYMENT_TARGET=8.0    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -L/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -F/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos -filelist /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/SlideShow.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=8.0 -Xlinker -dependency_info -Xlinker /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/Objects-normal/armv7/SlideShow_dependency_info.dat -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/SlideShow36"D25736CC-BC13-429A-A577-D0FADB650FCE-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CPBXCp builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+s424763748.116978
+e424763748.119974
+r1
+xPBXCp
+xbuilds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+xbuilds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Copy /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex215"PBXCp builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex8a011e646151b941^2db51e646151b941^---0#0#1#-19%DVTDocumentLocation2@146"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex/0000000000000000^835"PBXCp builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/com.dispatchsync.SlideShow.DSPhotoWidget.appex /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns36"A6F59150-5714-4C25-A2DC-D5D40F261DA0-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CProcessInfoPlistFile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist
+s424761559.507540
+e424761559.509122
+r1
+xProcessInfoPlistFile
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist113"ProcessInfoPlistFile builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist SlideShow/Info.plist1afc81d75851b941^475682d75851b941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist0000000000000000^1095"ProcessInfoPlistFile builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist SlideShow/Info.plist    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/Info.plist -genpkginfo /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/ResourceRules.plist -additionalcontentfile /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/assetcatalog_generated_info.plist -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/Info.plist36"7F4034A0-E405-412B-8A4A-088B3AB740C3-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CProcessProductPackaging /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/SlideShow.entitlements /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent
+s424761559.539942
+e424761559.541160
+r1
+xProcessProductPackaging
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/SlideShow.entitlements
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging160"ProcessProductPackaging SlideShow/SlideShow.entitlements builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent13478ad75851b941^408a8ad75851b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow.app/Info.plist00346499dcffdf42^707"ProcessProductPackaging SlideShow/SlideShow.entitlements builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Jeremy/Desktop/DispatchSync/SlideShow/SlideShow/SlideShow.entitlements -entitlements -format xml -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Intermediates/SlideShow.build/Debug-iphoneos/SlideShow.build/SlideShow.app.xcent36"3ED1E65F-C4A1-481F-8ECD-53E9326C7D0B-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision
+s424761559.534188
+e424761559.535647
+r1
+xProcessProductPackaging
+x/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging220"ProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision96cd88d75851b941^f32089d75851b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Jeremy/Library/MobileDevice/Provisioning%20Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision0000000000000000^756"ProcessProductPackaging /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Jeremy/Library/MobileDevice/Provisioning\ Profiles/2BF3D462-766F-4C8C-83BA-C10E51B8BE18.mobileprovision -o /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/embedded.mobileprovision36"732BE21A-03B5-42C2-BCB6-BDD27690B4A6-
+b580E195A-6F4D-493C-B6C4-56169172816F
+
+CTouch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+s424763748.128299
+e424763748.133249
+r1
+xTouch
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app66"Touch builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.appe6e520646151b941^a81d22646151b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/0000000000000000^449"Touch builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app36"0112BB16-627B-4942-BC55-1FAC41819115-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+
+CValidateEmbeddedBinary /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+s424763748.120419
+e424763748.127641
+r1
+xValidateEmbeddedBinary
+x/Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Validate embedded binary138"ValidateEmbeddedBinary builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex54e61e646151b941^21ae20646151b941^---0#0#1#-19%DVTDocumentLocation2@168"file:///Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex/0000000000000000^706"ValidateEmbeddedBinary builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex    cd /Users/Jeremy/Desktop/DispatchSync/SlideShow    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-embeddedBinaryValidationUtility /Users/Jeremy/Desktop/DispatchSync/SlideShow/builds/SlideShow/Build/Products/Debug-iphoneos/SlideShow.app/PlugIns/com.dispatchsync.SlideShow.DSPhotoWidget.appex -signing-cert 3E0CB940EC88153B5024B056851CE980CE42D047 -bundle-identifier-prefix com.dispatchsync.SlideShow36"3BF6BF6D-1D98-4EC4-8800-3468DCB86220-
+b2C948D8C-3D65-4782-8557-A52D0C7CEA1A
+

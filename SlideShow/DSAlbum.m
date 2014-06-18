@@ -85,7 +85,9 @@ static NSInteger testInteger  = 0;
                 [group enumerateAssetsWithOptions:NSEnumerationReverse usingBlock:^(ALAsset *alAsset, NSUInteger index, BOOL *innerStop) {
                     if (alAsset) {
                         UIImage *image = [UIImage imageWithCGImage:[alAsset thumbnail]];
-                        [photos addObject:image];
+                        if (image) {
+                            [photos addObject:image];
+                        }
                     }
                 }];
             };

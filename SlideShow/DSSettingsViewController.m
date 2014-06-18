@@ -14,7 +14,6 @@ static NSString * const CellIdentifier = @"AlbumCell";
 
 
 @interface DSSettingsViewController ()
-//@property (nonatomic, strong) ALAssetsLibrary *library;
 @property (nonatomic, copy) NSArray *albums;
 @end
 
